@@ -1,2 +1,2 @@
 # portfolio
-A portfolio for my web dev work
+A simple portfolio for my web dev work
