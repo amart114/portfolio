@@ -309,12 +309,18 @@ header {
 
 .services {
     margin-bottom: 4em;
+    
 }
 
 .service {
     max-width: 500px;
     margin: 0 auto;
 }
+
+.service i {
+    padding: 0.25em;
+}
+
 
 @media (min-width: 800px) {
     .services {
