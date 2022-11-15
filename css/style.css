@@ -391,15 +391,21 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
     overflow: hidden;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--clr-light);
 }
 
-.portfolio__img {
+.portfolio__item:hover {
+    color: var(--clr-accent);
+}
+
+/* .portfolio__img {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
-}
+} */
 
 .portfolio__item:focus {
     position: relative;
