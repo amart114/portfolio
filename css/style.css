@@ -318,35 +318,7 @@ header {
 
 
 .service i{
-    margin: 0.5em;
-    transition: box-shadow 300ms, background-color 300ms, margin-top 300ms;
-    border-radius: 100px;
-    line-height: 95px;
-}
-
-.service .react-icon:hover {
-    box-shadow: 0 0 30px 10px #7CC5D9;
-    background-color: #7CC5D998;
-    margin-top: 0.40em;
-}
-
-.service .javascript-icon:hover {
-    box-shadow: 0 0 30px 10px #F0DB4F;
-    background-color:#F0DB4F98;
-    margin-top: 0.40em;
-    
-}
-
-.service .html-icon:hover {
-    box-shadow: 0 0 30px 10px #E34C26;
-    background-color:#E34C2698;
-    margin-top: 0.40em;
-}
-
-.service .css-icon:hover {
-    box-shadow: 0 0 30px 10px #264DE4;
-    background-color:#264DE498;
-    margin-top: 0.40em;
+    margin: 0.5em; 
 }
 
 
@@ -360,6 +332,37 @@ header {
 
     .service + .service {
         margin-left: 2em;
+    }
+
+    .service i {
+        transition: box-shadow 300ms, background-color 300ms, margin-top 300ms;
+        border-radius: 100px;
+        line-height: 95px;
+    }
+
+    .service .react-icon:hover {
+        box-shadow: 0 0 30px 20px #7CC5D9;
+        background-color: #7CC5D9;
+        margin-top: 0.40em;
+    }
+    
+    .service .javascript-icon:hover {
+        box-shadow: 0 0 30px 20px #F0DB4F;
+        background-color:#F0DB4F98;
+        margin-top: 0.40em;
+        
+    }
+    
+    .service .html-icon:hover {
+        box-shadow: 0 0 30px 20px #E34C26;
+        background-color:#E34C2698;
+        margin-top: 0.40em;
+    }
+    
+    .service .css-icon:hover {
+        box-shadow: 0 0 30px 20px #264DE4;
+        background-color:#264DE498;
+        margin-top: 0.40em;
     }
 }
 
