@@ -14,7 +14,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #00E7FF;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -283,7 +283,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url("https://picsum.photos/id/0/1600/2400");
+    background-image: url("https://picsum.photos/id/29/4000/2670");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
