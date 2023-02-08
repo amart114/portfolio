@@ -41,8 +41,8 @@ html {
 }
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--clr-dark);
+    color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -104,10 +104,12 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title-intro {
     font-weight: var(--fw-reg);
+    letter-spacing: 2px;
 }
 
 .section__title--intro strong {
     display: block;
+    letter-spacing: 2px;
 }
 
 .section__subtitle {
